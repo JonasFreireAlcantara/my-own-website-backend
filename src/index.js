@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors());
-
+app.use('/public', express.static('public'));
 app.use('/', require('./routes'));
 
 const port = process.env.PORT || 3333
