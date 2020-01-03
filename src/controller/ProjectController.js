@@ -17,7 +17,7 @@ const projects = [
         title: 'Gerador de Slide',
         description: 'Script para geração de slide utilizando a biblioteca python-pptx que gera apresentação de slides no formato power point, este projeto foi necessário para automatizar as atividades da minha igreja, onde precisávamos criar os slides contendo as letras das músicas, esse projeto objetiva a automatização e facilidade do processo.',
         url: 'https://github.com/JonasFreireAlcantara/Power-Point-Presentation',
-		thumbnail_url: `${process.env.BACKEND_API_URL}/public/gears.png`,
+		thumbnail_url: `${process.env.BACKEND_API_URL}/public/screenshot_slide.png`,
     },
 ];
 
